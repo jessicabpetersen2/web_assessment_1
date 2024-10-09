@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shop Homepage - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/personalized.css" rel="stylesheet"/>
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        </style>
+
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html"><img alt="logo" src="img/tea_icon.png" id="logoTea" width="20%" >Jeh Tea Shop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="allProducts.html">All Products</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="blackTea.html">Black Tea</a></li>
+                                <li><a class="dropdown-item" href="greenTea.html">Green Tea</a></li>
+                                <li><a class="dropdown-item" href="herbalTea.html">Herbal Tea</a></li>
+                                <li><a class="dropdown-item" href="premiumTea.html">Premium Tea</a></li>
+                                <li><a class="dropdown-item" href="organicCoffee.html">Organic Coffee</a></li>
+                                <li><a class="dropdown-item" href="fancyCookie.html">Fancy Cookies</a></li>
+                                <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="aboutCompany.html">About our company</a></li>
+                                <li><a class="dropdown-item" href="managementTeam.html">Management Team</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Careers</a>
+                                    <ul class="dropdown-menu dropdown-submenu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="driver.html">Driver</a></li>
+                                        <li><a class="dropdown-item" href="cook.html">Cook</a></li>
+                                        <li><a class="dropdown-item" href="baker.html">Baker</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="contactUs.html">Contact Us</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Actions</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#" onclick="history.back()">Back</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="history.forward()">Forward</a></li>
+                                <li><a class="dropdown-item"  href="#" onclick="window.print()">Print</a></li>
+                                <li><a class="dropdown-item"  href="#" onclick="stopLoading()">Stop</a></li>
+                                <li><a class="dropdown-item"  href="#" onclick="location.reload()">Reload</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Navbar Search-->
+                    <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+                            <button class="btn btn-dark" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
+                        </div>
+                    </form>
+                    <form class="d-flex">
+                        
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5"  style="background-image: url(img/background.png); width: 100%; height: 50vh; background-repeat: no-repeat; background-size: cover; opacity: 90%">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white" >
+                    <h1 class="display-4 fw-bolder" style="-webkit-text-stroke-width: 1px;   -webkit-text-stroke-color: #64211B; font-family: Dancing Script, cursive; font-size: 100px">Jeh Tea Shop</h1>
+                </div>
+            </div>
+        </header>
+        <!-- Section-->
+        <section class="py-3" id="features">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">Our Services</h2></div>
+                        <div class="col-lg-8">
+                            <div class="row gx-5 row-cols-1 row-cols-md-2">
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-dark bg-gradient text-white rounded-1 mb-1" ><div style="margin-left:10px"><i class="fa-solid fa-mug-hot"></i></div></div>
+                                    <h2 class="h5">Custom Tea Blends</h2>
+                                    <p class="mb-0">We offer the opportunity to create your own personalized blend of Premium Tea. Choose from a selection of our finest ingredients to craft a tea that suits your unique taste. Perfect for gifting, our custom blends come with luxury packaging options.</p>
+                                </div>
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><div style="margin-left:10px"><i class="fa-solid fa-box"></i></div></div>
+                                    <h2 class="h5">Tea & Coffee Subscription Service</h2>
+                                    <p class="mb-0">Enjoy the best of our Premium Tea, Organic Coffee, and Fancy Cookies with our monthly subscription service. Each month, you’ll receive a carefully curated selection of products delivered straight to your door. Plus, get exclusive discounts on our accessories, like teapots and infusers.</p>
+                                </div>
+                                <div class="col mb-5 mb-md-0 h-100">
+                                    <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><div style="margin-left:10px"><i class="fa-solid fa-gift"></i></div></div>
+                                    <h2 class="h5">Corporate Gifts & Bulk Orders</h2>
+                                    <p class="mb-0">Make a lasting impression with our customized gift sets. Choose from Premium Tea, Organic Coffee, and Fancy Cookies, all available in bulk with personalized packaging. Whether for corporate events or special occasions, our gifts are sure to delight.</p>
+                                </div>
+                                <div class="col h-100">
+                                    <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><div style="margin-left:10px"><i class="fa-solid fa-spoon"></i></div></div>
+                                    <h2 class="h5">Tea and Coffee Tasting Events</h2>
+                                    <p class="mb-0">Join us for a unique tasting experience where you can sample our Premium Tea, Organic Coffee, and Fancy Cookies. Learn from experts about the origins, brewing methods, and perfect pairings of these products. Book private tasting sessions for groups or corporate events.</p>
+                                </div>
+                                <div class="col mb-5 mb-md-0 h-100">
+                                    <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><div style="margin-left:10px"><i class="fa-solid fa-clipboard-check"></i></div></div>
+                                    <h2 class="h5">Tea & Coffee Workshops</h2>
+                                    <p class="mb-0">Expand your knowledge by attending one of our workshops, where you’ll learn brewing techniques for both Premium Tea and Organic Coffee, and how to pair them with our Fancy Cookies. These classes are perfect for enthusiasts who want to elevate their tea and coffee experience.</p>
+                                </div>
+                                <div class="col h-100">
+                                    <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><div style="margin-left:10px"><i class="fa-solid fa-award"></i></div></div>
+                                    <h2 class="h5">Custom Packaging for Special Occasions</h2>
+                                    <p class="mb-0">Celebrate in style with our custom gift sets. Whether you’re looking for personalized packaging for Premium Tea, Organic Coffee, or Fancy Cookies, we’ll make sure your gifts are beautifully presented for any occasion.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Jessica B. Petersen</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script>
+                                function stopLoading() {
+                                    window.stop();
+                                }
+
+                                function searchSite() {
+                                    var query = document.getElementById("searchInput").value;
+                                    alert("You searched for: " + query);  // This is just a placeholder. You can implement real search logic here.
+                                }
+        </script>
+    </body>
+</html>

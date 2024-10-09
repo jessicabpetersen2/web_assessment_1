@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shop Homepage - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/personalized.css" rel="stylesheet"/>
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        </style>
+
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html"><img alt="logo" src="img/tea_icon.png" id="logoTea" width="20%" >Jeh Tea Shop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="allProducts.html">All Products</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="blackTea.html">Black Tea</a></li>
+                                <li><a class="dropdown-item" href="greenTea.html">Green Tea</a></li>
+                                <li><a class="dropdown-item" href="herbalTea.html">Herbal Tea</a></li>
+                                <li><a class="dropdown-item" href="premiumTea.html">Premium Tea</a></li>
+                                <li><a class="dropdown-item" href="organicCoffee.html">Organic Coffee</a></li>
+                                <li><a class="dropdown-item" href="fancyCookie.html">Fancy Cookies</a></li>
+                                <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="aboutCompany.html">About our company</a></li>
+                                <li><a class="dropdown-item" href="managementTeam.html">Management Team</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Careers</a>
+                                    <ul class="dropdown-menu dropdown-submenu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="driver.html">Driver</a></li>
+                                        <li><a class="dropdown-item" href="cook.html">Cook</a></li>
+                                        <li><a class="dropdown-item" href="baker.html">Baker</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="contactUs.html">Contact Us</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Actions</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#" onclick="history.back()">Back</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="history.forward()">Forward</a></li>
+                                <li><a class="dropdown-item"  href="#" onclick="window.print()">Print</a></li>
+                                <li><a class="dropdown-item"  href="#" onclick="stopLoading()">Stop</a></li>
+                                <li><a class="dropdown-item"  href="#" onclick="location.reload()">Reload</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Navbar Search-->
+                    <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+                            <button class="btn btn-dark" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
+                        </div>
+                    </form>
+                    <form class="d-flex">
+                        
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5"  style="background-image: url(img/background.png); width: 100%; height: 50vh; background-repeat: no-repeat; background-size: cover; opacity: 90%">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white" >
+                    <h1 class="display-4 fw-bolder" style="-webkit-text-stroke-width: 1px;   -webkit-text-stroke-color: #64211B; font-family: Dancing Script, cursive; font-size: 100px">Jeh Tea Shop</h1>
+                </div>
+            </div>
+        </header>
+        <!-- Section-->
+        <section class="py-5" style="text-align: center">
+           
+            <div class="container px-3 my-5">
+                <h1>
+                    Careers at Jeh Tea Shop: Driver
+                </h1>
+                </br>
+                <hr>
+
+                <p><strong>Position: Driver</strong></p>
+                <p>
+                    At Jeh Tea Shop, we pride ourselves on delivering exceptional products to our customers, and our drivers play a crucial role in ensuring our premium teas, organic coffees, and gourmet treats reach their destination safely and on time. We are seeking a reliable and professional driver to join our team and help us maintain our high standards of customer service and delivery efficiency.
+                </P>
+                </br>
+                <hr>
+                <p><strong>Key Responsibilities:</strong></p>
+
+                <ul style="text-align: left">
+                    <li>
+                        Safely and efficiently transport products, including teas, coffees, and baked goods, to customers, retail partners, and events.
+                    </li>
+                    <li>
+                        Ensure all deliveries are completed in a timely manner and within scheduled delivery windows.
+                    </li>
+                    <li>
+                        Handle all products with care, ensuring they arrive in excellent condition
+                    </li>
+                    <li>
+                        Communicate professionally with customers, providing a friendly and helpful delivery experience.
+                    </li>
+                    <li>
+                        Maintain accurate delivery logs and reports, tracking mileage, delivery times, and completed orders.
+                    </li>
+                    <li>
+                        Assist with loading and unloading products at the warehouse and delivery destinations
+                    </li>
+                    <li>
+                        Ensure that the delivery vehicle is well-maintained, clean, and in proper working condition.
+                    </li>
+                    <li>
+                        Follow all traffic and safety regulations to ensure safe delivery.
+                    </li>
+                    <li>
+                        Assist with warehouse operations, including organizing and packing products for delivery
+                    </li>
+                </ul>
+
+                </br>
+                <hr>
+                <p><strong>Qualifications:</strong></p>
+                <ul style="text-align: left">
+                    <li>
+                        Proven experience as a delivery driver or in a similar role.
+                    </li>
+                    <li>
+                        Valid driver’s license with a clean driving record.
+                    </li>
+                    <li>
+                        Familiarity with the local area and ability to follow GPS navigation and delivery routes efficiently.
+                    </li>
+                    <li>
+                        Strong customer service skills and ability to communicate professionally and courteously.
+                    </li>
+                    <li>
+                        Ability to handle physical tasks, including lifting and moving packages.
+                    </li>
+                    <li>
+                        Dependable and punctual, with the ability to manage time effectively.
+                    </li>
+                    <li>
+                        Basic understanding of vehicle maintenance and care.
+                    </li>
+                     <li>
+                        Ability to work flexible hours, including weekends and holidays if needed.
+                    </li>
+                </ul>
+
+                </br>
+                <hr>
+                <p><strong>Benefits</strong></p>
+                <ul style="text-align: left">
+                    <li>
+                        Competitive hourly wage or salary based on experience.
+                    </li>
+                    <li>
+                        Mileage reimbursement or company vehicle provided for deliveries.
+                    </li>
+                    <li>
+                       Staff discounts on all tea, coffee, and baked products.
+                    </li>
+                    <li>
+                       Opportunities for career growth within Jeh Tea Shop.
+                    </li>
+                    <li>
+                        Supportive work environment with a focus on teamwork and customer satisfaction.
+                    </li>
+                    <li>
+                        Flexible scheduling with potential for both part-time and full-time hours.
+                    </li>
+                     <li>
+                        Paid time off and other employee benefits.
+                    </li>
+                </ul>
+                
+                 </br>
+                <hr>
+                <p><strong>How to Apply</strong></p>
+                <p>
+                    If you’re a dependable and customer-focused driver looking to join a growing team, we’d love to hear from you! Please submit your resume and a brief cover letter outlining your experience and why you’d be a great fit for Jeh Tea Shop’s Driver position to careers@jehteashop.com
+                </p>
+            </div>
+            
+            
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Jessica B. Petersen</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script>
+                                function stopLoading() {
+                                    window.stop();
+                                }
+
+                                function searchSite() {
+                                    var query = document.getElementById("searchInput").value;
+                                    alert("You searched for: " + query);  // This is just a placeholder. You can implement real search logic here.
+                                }
+        </script>
+    </body>
+</html>

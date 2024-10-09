@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shop Homepage - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/personalized.css" rel="stylesheet"/>
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        </style>
+
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html"><img alt="logo" src="img/tea_icon.png" id="logoTea" width="20%" >Jeh Tea Shop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="allProducts.html">All Products</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="blackTea.html">Black Tea</a></li>
+                                <li><a class="dropdown-item" href="greenTea.html">Green Tea</a></li>
+                                <li><a class="dropdown-item" href="herbalTea.html">Herbal Tea</a></li>
+                                <li><a class="dropdown-item" href="premiumTea.html">Premium Tea</a></li>
+                                <li><a class="dropdown-item" href="organicCoffee.html">Organic Coffee</a></li>
+                                <li><a class="dropdown-item" href="fancyCookie.html">Fancy Cookies</a></li>
+                                <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="aboutCompany.html">About our company</a></li>
+                                <li><a class="dropdown-item" href="managementTeam.html">Management Team</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Careers</a>
+                                    <ul class="dropdown-menu dropdown-submenu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="driver.html">Driver</a></li>
+                                        <li><a class="dropdown-item" href="cook.html">Cook</a></li>
+                                        <li><a class="dropdown-item" href="baker.html">Baker</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="contactUs.html">Contact Us</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Actions</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#" onclick="history.back()">Back</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="history.forward()">Forward</a></li>
+                                <li><a class="dropdown-item"  href="#" onclick="window.print()">Print</a></li>
+                                <li><a class="dropdown-item"  href="#" onclick="stopLoading()">Stop</a></li>
+                                <li><a class="dropdown-item"  href="#" onclick="location.reload()">Reload</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Navbar Search-->
+                    <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+                            <button class="btn btn-dark" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
+                        </div>
+                    </form>
+                    <form class="d-flex">
+
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5"  style="background-image: url(img/background.png); width: 100%; height: 50vh; background-repeat: no-repeat; background-size: cover; opacity: 90%">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white" >
+                    <h1 class="display-4 fw-bolder" style="-webkit-text-stroke-width: 1px;   -webkit-text-stroke-color: #64211B; font-family: Dancing Script, cursive; font-size: 100px">Jeh Tea Shop</h1>
+                </div>
+            </div>
+        </header>
+        <!-- Section-->
+        <section class="py-5" style="text-align: center">
+            <h1>About Jeh Tea Shop</h1>
+            <div class="container px-3 my-5">
+                </br>
+                <hr>
+                <h5>Who We Are</h5>
+                <p>
+                    At Jeh Tea Shop, we are dedicated to offering the best selection of premium teas, organic coffees, and gourmet cookies. Our mission is to provide products that bring joy, flavor, and a sense of connection to our customers.
+                </p>
+                </br>
+                <hr>
+                <h5>Our Vision</h5>
+                <p>
+                    We aim to be the leading destination for tea and coffee enthusiasts worldwide, offering not only exceptional products but also the knowledge to help you enjoy them to the fullest.
+                </p>
+                </br>
+                <hr>
+                <h5>Our Values</h5>
+                <p>
+                    <strong>Quality</strong>: Hand-picked ingredients from the best producers.<br>
+                    <strong>Sustainability</strong>: Committed to eco-friendly practices.<br>
+                    <strong>Customer Experience</strong>: Providing top-notch service and a delightful shopping experience.
+                </p>
+                </br>
+                <hr>
+                <h5>Why Choose Jeh Tea Shop?</h5>
+                <p>
+                    We don’t just sell tea and coffee; we share the experience. Join our community of tea and coffee lovers and discover new flavors, tips, and experiences with every visit.
+                </p>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Jessica B. Petersen</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script>
+                                function stopLoading() {
+                                    window.stop();
+                                }
+
+                                function searchSite() {
+                                    var query = document.getElementById("searchInput").value;
+                                    alert("You searched for: " + query);  // This is just a placeholder. You can implement real search logic here.
+                                }
+        </script>
+    </body>
+</html>
